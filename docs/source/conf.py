@@ -39,9 +39,12 @@ templates_path = ['_templates']
 
 #html_theme = 'sphinx_rtd_theme'
 html_theme = "pydata_sphinx_theme"
+#html_theme = 'sphinx_pdj_theme'
 html_logo = path_str + "/build/html/_images/logo.svg"
 html_favicon = path_str + "/build/html/_images/logo.svg"
 
+language = "en"
+html_sourcelink_suffix = ""
 
 html_theme_options = {
     "external_links": [
@@ -89,7 +92,7 @@ html_theme_options = {
     # "navbar_start": ["navbar-logo"],
     # "navbar_end": ["theme-switcher", "navbar-icon-links"],
     # "navbar_persistent": ["search-button"],
-    # "primary_sidebar_end": ["custom-template.html", "sidebar-ethical-ads.html"],
+    #"primary_sidebar_end": ["custom-template.html", "sidebar-ethical-ads.html"],
     # "article_footer_items": ["test.html", "test.html"],
     # "content_footer_items": ["test.html", "test.html"],
     # "footer_start": ["test.html", "test.html"],
@@ -99,6 +102,9 @@ html_theme_options = {
     # "search_bar_position": "navbar",  # TODO: Deprecated - remove in future version
 }
 
+html_sidebars = {
+    "**": ["sidebar-nav-bs", "sidebar-ethical-ads"]
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'

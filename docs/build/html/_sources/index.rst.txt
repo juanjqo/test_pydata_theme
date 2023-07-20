@@ -37,3 +37,14 @@ Tutorial: DQ Robotics with `CoppeliaSim <https://www.coppeliarobotics.com/>`_
 .. note::
 
    This project is under active development.
+
+
+#. :doc:`Preamble: Ubuntu Basics <preamble/about>`
+    xxxxxxxxxxxxxxx.
+
+.. toctree::
+   :caption: Preamble
+   :maxdepth: 2
+
+   preamble/about
+   preamble/installation
