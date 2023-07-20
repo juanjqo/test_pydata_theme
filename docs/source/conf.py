@@ -67,7 +67,7 @@ html_theme_options = {
         {
             "name": "DQ Robotics",
             "url": "https://dqrobotics.github.io/",
-            "icon": path_str + "/build/html/_images/dqrobotics_logo_infinity2.svg",
+            "icon": path_str + "/build/html/_images/logo.png",
             "type": "local",
             "attributes": {"target": "_blank"},
         },
